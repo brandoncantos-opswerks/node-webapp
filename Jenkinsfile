@@ -3,7 +3,7 @@ pipeline {
         label 'linux'
     }
     
-    stages {
+    stages ('Build') {
         stage {
             steps {
                 script {
